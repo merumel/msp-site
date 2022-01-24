@@ -1,4 +1,5 @@
 module.exports = {
+    pathPrefix: "/msp-site",
     siteMetadata: {
         siteUrl: `https://www.yourdomain.tld`,
     },
