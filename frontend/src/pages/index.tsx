@@ -3,6 +3,13 @@ import Layout from '../components/Layout'
 import '../styles/curves.css'
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image"
+import ServerIcon from "../assets/server-vec.svg";
+import CityscapeImage from "../assets/cityscape.svg";
+import LaptopImage from "../assets/laptopguard.svg";
+import LockImage from "../assets/lock.svg";
+import ServerImage from "../assets/cloudlock.svg"
+
+
 const IndexPage = () => {
     return(
         <Layout bodyClass={null}>
@@ -47,7 +54,7 @@ const IndexPage = () => {
                     </div>
                     
                     <div className="w-1/2 border-solid">
-                        <StaticImage src="../images/cityscape.jpg" alt="A dinosaur" className="object-span pr-10"/>
+                        <CityscapeImage className=""/>
                     </div>                      
                 </div>
                 <div className="custom-shape-divider-bottom-1643009459">
@@ -57,7 +64,7 @@ const IndexPage = () => {
                         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" className="shape-fill"></path>
                     </svg>
                 </div>
-                <div className="p-20 mt-15 font-sans grid grid-cols-4 font-hairline self-start bg-[#e4e4e4]">
+                <div className="p-20 mt-15 font-sans grid grid-cols-4 content-center font-hairline self-start bg-[#e4e4e4] text-[#565656]">
                     <div className="col-span-4 pb-20 items-center">
                         <h1 className="text-center text-3xl">Our Services</h1>
                     </div>
@@ -66,13 +73,15 @@ const IndexPage = () => {
                     </div>
                     <div>
                         <h1 className="text-center">Computer Repair</h1>
+                        <LaptopImage />
                     </div>
                     <div>
                         <h1 className="text-center">Malware Removal</h1>
                     </div>
                     <div>
                         <h1 className="text-center">Network Setup</h1>
-                        <StaticImage src="../images/server2.png" alt="A server" className="item-center object-cover pl-5 h-48 w-48"/>
+                        <ServerImage />
+                        
                     </div>
                             
                 </div>
