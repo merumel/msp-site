@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Services from '../components/Services'
 import '../styles/curves.css'
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image"
@@ -18,7 +19,7 @@ const IndexPage = () => {
             <div
             className="grid grid-cols-1 divide-y-0 items-center"
             > 
-                <div className="flex mx-auto mt-15 font-sans p-10 font-hairline self-start ">
+                <div className="flex relative shadow-lg shadow-indigo-400/50 mt-15 font-sans p-10 font-hairline self-start ">
                     
                     <div className="container justify-center w-1/2 h-1/2 p-20 ml-10">
                         <h1 className="text-3xl md:text-5xl text-black leading-tight">
@@ -27,7 +28,7 @@ const IndexPage = () => {
                         <p className="text-lg pt-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
-                        <div className="container pr-6 mt-10 self-start">
+                        <div className="container pr-6 mt-10 w-9/12 self-start">
                         <div
                             className="bg-white rounded flex flex-col sm:flex-row items-start sm:items-center text-sm p-4"
                             style={{
@@ -36,14 +37,25 @@ const IndexPage = () => {
                             }}
                         >
                             <div className="flex-1">
-                                <p>
+                                <div className="flex flex-row pb-1 items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 align-center justify-center" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
+                                    </svg>
+                                    <p>                                                
                                     <strong>Phone: </strong>
-                                    XXX XXX XXX
-                                </p>
-                                <p>
+                                     XXX XXX XXX
+                                    </p>
+                                </div>
+                                <div className="flex flex-row pb-1 items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                    <p>
                                     <strong>Email: </strong>
                                     xxx@xxx.com
-                                </p>
+                                    </p>
+                                </div>
+                                
                             </div>
                             <p className="pr-9 text-lg text-slate-400">-OR-</p>
                             <div className="flex-initial mt-6 sm:mt-0">
@@ -59,80 +71,10 @@ const IndexPage = () => {
                         <CityscapeImage className="mx-auto"/>
                     </div>                      
                 </div>
-                
-                <div className="p-20 mt-15 font-sans grid grid-cols-3 gap-10 items-center justify-center font-hairline self-start bg-[#e4e4e4] text-[#565656]">
-                    <div className="col-span-3 pb-20 items-center">
-                        <h1 className="text-center text-2xl">Our Services</h1>
-                        <h2 className="text-center font-bold text-3xl">What We Offer</h2>
-                        <p className="text-base text-center text-body-color">
-                            There are many variations of passages of Lorem Ipsum available
-                            but the majority have suffered alteration in some form.
-                        </p>
-                    </div>
-                    <div className="md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8">
-                        <StaticImage className="w-3/12 m-7" src="../images/code.png" alt="Sunset in the mountains"/>
-                        <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                            <p className="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>                   
-                    </div>    
-                    <div className="justify-center max-w-sm rounded overflow-hidden shadow-lg bg-white">
-                        <StaticImage className="w-1/5 m-7" src="../images/laptop_1.png" alt="Sunset in the mountains"/>
-                        <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                            <p className="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>                   
-                    </div>    
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-                        <StaticImage className="w-1/5 m-7" src="../images/document.png" alt="Sunset in the mountains"/>
-                        <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                            <p className="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>                    
-                    </div>  
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-                        <StaticImage className="w-1/5 m-10" src="../images/cloud.png" alt="Sunset in the mountains"/>
-                        <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                            <p className="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>                    
-                    </div>  
-                    <div className="justify-center max-w-sm rounded overflow-hidden shadow-lg bg-white">
-                        <StaticImage className="w-1/6 m-7" src="../images/lock.png" alt="Sunset in the mountains"/>
-                        <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                            <p className="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>                   
-                    </div>                   
-                    <div className="justify-center max-w-sm rounded overflow-hidden shadow-lg bg-white">
-                        <StaticImage className="w-1/5 m-7" src="../images/mail.png" alt="Sunset in the mountains"/>
-                        <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                            <p className="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>                   
-                    </div>
-
-
-                     
+                <div className="shadow-lg shadow-indigo-700/50">
+                    <Services />
                 </div>
+                
 
             </div> 
         </Layout>
