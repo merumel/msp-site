@@ -12,10 +12,10 @@ const Services = () => {
                 but the majority have suffered alteration in some form.
             </p>
             <div className="mx-20">
-                <div className="p-20 mt-15 font-sans grid grid-cols-3 grid-flow-row gap-x-4 gap-y-14 auto-rows-auto font-hairline self-start">
+                <div className="p-20 mt-15 font-sans grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-x-4 gap-y-14 auto-rows-auto font-hairline self-start">
                     
-                <div className="flex justify-center items-center">
-                        <div className="rounded shadow-lg bg-slate-500 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
+                    <div className="flex justify-center items-center">
+                        <div className="rounded shadow-lg bg-slate-500 max-w-lg md:max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
                         <StaticImage as="div" className="flex h-1/3 w-1/4 m-7" objectFit="contain" src="../images/code.png" alt="Sunset in the mountains"/>
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2 leading-6">The Coldest Sunset</div>
