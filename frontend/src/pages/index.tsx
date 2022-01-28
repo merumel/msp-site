@@ -11,7 +11,7 @@ import CodeImage from "../assets/code.svg";
 import LockImage from "../assets/lock.svg";
 import ShieldGuardImage from "../assets/shieldguard.svg";
 import DocumentImage from "../assets/document.svg"
-
+import Contact from '../components/Contact'
 
 const IndexPage = () => {
     return(
@@ -25,7 +25,7 @@ const IndexPage = () => {
                         <h1 className="text-3xl md:text-5xl text-black leading-tight">
                             Your Trusted IT Consultant - Serving You and Your business.
                         </h1>
-                        <p className="text-lg pt-4">
+                        <p className="text-lg pt-4 text-slate-700">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <div className="container pr-6 mt-10 w-9/12 self-start">
@@ -73,6 +73,9 @@ const IndexPage = () => {
                 </div>
                 <div className="shadow-lg shadow-indigo-700/50">
                     <Services />
+                </div>
+                <div>
+                    <Contact />
                 </div>
                 
 
