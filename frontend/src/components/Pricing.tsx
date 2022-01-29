@@ -36,11 +36,11 @@ const Pricing = () => {
                             </li>
                             <li className="flex items-center space-x-2">
                             <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>10GB</strong> SSD Storage</span>
+                            <span>Hardware Install / Repair</span>
                             </li>
                             <li className="flex items-center space-x-2">
                             <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>1TB</strong> High Speed Bandwidth</span>
+                            <span>Remote or On-Site Support</span>
                             </li>
                             <li className="flex items-center space-x-2">
                             <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
@@ -78,23 +78,23 @@ const Pricing = () => {
                         <ul className="space-y-4 text-sm lg:text-base">
                             <li className="flex items-center space-x-2">
                             <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>1000</strong> Custom Projects</span>
+                            <span>Remote Monitoring and Management</span>
                             </li>
                             <li className="flex items-center space-x-2">
                             <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>200</strong> Paying Clients</span>
+                            <span>Cloud Data Management</span>
                             </li>
                             <li className="flex items-center space-x-2">
                             <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>100GB</strong> SSD Storage</span>
+                            <span>Helpdesk Support</span>
                             </li>
                             <li className="flex items-center space-x-2">
                             <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>10TB</strong> High Speed Bandwidth</span>
+                            <span>License and Vendor Management</span>
                             </li>
                             <li className="flex items-center space-x-2">
                             <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>24/7</strong> Email &amp; Skype Support</span>
+                            <span><strong>24/7</strong> Monitoring</span>
                             </li>
                         </ul>
                         <a className="px-4 py-3 text-white text-center uppercase font-semibold rounded bg-indigo-700 hover:bg-indigo-900 block w-full" href="javascript:void(0)">

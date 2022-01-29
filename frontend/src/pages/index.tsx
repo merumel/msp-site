@@ -49,7 +49,7 @@ const IndexPage = () => {
                                     </svg>
                                     <p>
                                     <strong>Email: </strong>
-                                    xxx@xxx.com
+                                        support@maxlevel.tech
                                     </p>
                                 </div>
                                 
