@@ -7,8 +7,8 @@ const Pricing = () => {
     return(
         <div className="flex-1 bg-stone-200" style={backgroundImage}>
             <div className="flex flex-col lg:flex-row">
-                <div className="flex w-1/3 content-center justify-center my-10">
-                    <div className="rounded-lg shadow-sm bg-white flex flex-col border-4 border-white">
+                <div className="flex w-1/3 content-center justify-end my-10">
+                    <div className="rounded-lg shadow-sm bg-white flex flex-col border-4 border-white w-96">
                         <div className="p-5 lg:p-6 text-center flex-grow">
                         <span className="inline-block text-sm uppercase tracking-wider font-semibold px-3 py-1 bg-indigo-200 bg-opacity-50 text-indigo-500 rounded-full mb-4">
                             Residential
@@ -55,7 +55,7 @@ const Pricing = () => {
                 </div>
                 
                 <div className="flex w-1/3 content-center justify-center my-10">
-                    <div className="rounded-lg shadow-sm bg-white flex flex-col border-4 border-indigo-300">
+                    <div className="rounded-lg shadow-sm bg-white flex flex-col border-4 border-indigo-300 w-96">
                         <div className="p-5 lg:p-6 text-center flex-grow">
                         <span className="inline-flex space-x-1 items-center text-sm uppercase tracking-wider font-semibold px-3 py-1 bg-indigo-200 bg-opacity-50 text-indigo-500 rounded-full mb-4">
                             <span>Business</span>
@@ -68,7 +68,7 @@ const Pricing = () => {
                             <span className="text-lg text-gray-600 font-semibold">/mon</span>
                         </div>
                         <p className="text-gray-600 text-sm">
-                            One-time solutions also available
+                            One-time solutions available
                         </p>
                         <p className="text-gray-600">
                             For small / medium businsses
@@ -105,7 +105,7 @@ const Pricing = () => {
                 </div>
                 
                 <div className="flex flex-col my-10 w-1/3">
-                    <div className="rounded-lg shadow-lg bg-stone-200 flex flex-col flex-fit mr-72 p-4">
+                    <div className="rounded-lg shadow-lg bg-stone-200 shadow-indigo-700/50 flex flex-col flex-fit mr-72 p-4">
                         <h2 className="text-3xl text-primary-dark font-bold">Pricing</h2>
                         <h1 className="text-base text-md p-5">We cater our solutions to your needs. Consultation is always available for both home and busisness customers and starts at $xx.</h1>
                     </div>
