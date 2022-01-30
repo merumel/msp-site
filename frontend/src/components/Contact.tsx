@@ -46,12 +46,23 @@ const ContactForm = () => {
       target="_blank"
     >
         <div className="flex flex-row">
-            <div className="flex flex-col mx-20 my-8 w-1/3">
-                <div>
-                    <h1 className="py-10 mx-10">Contact Information</h1>
-                </div>
-
+            <div className="flex flex-col w-1/3 bg-city-image bg-cover -ml-5 brightness-95">
+              <div className="flex-1 bg-indigo-900 bg-opacity-90 backdrop-filter backdrop-blur-sm">
+                    <h1 className="py-10 mx-24 text-slate-200">Contact Information</h1>
+                    <p className="py-10 mx-24 text-slate-200">Serving the greater Houston Area.</p>
+                    <p className="py-2 mx-24 mt-5 text-slate-200">Having an issue with your computer? Trying to figure out a technology solution for your business? Whatever it may be, feel free to send us an email, give us a call, or send us a message.</p>
+                    <div className="flex flex-row pb-1 mx-24 items-center space-x-3 text-slate-200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                    <p>
+                                    <strong>Email: </strong>
+                                        support@maxlevel.tech
+                                    </p>
+                    </div>
+              </div>
             </div>
+            
             <div className="flex flex-col w-1/2 mx-20 my-8">
                 <h1 className="py-10">Send us a message</h1>
                 <div className="flex mb-3 pt-0">

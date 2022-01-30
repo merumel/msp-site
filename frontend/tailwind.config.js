@@ -10,10 +10,11 @@ module.exports = {
         'custom-pale': '#ded5d1'
       },
       fontFamily:{
-        sans: ['Karla', 'sans-serif'],
+        sans: ['Electrolize', 'sans'],
       },
       backgroundImage: {
         'hero-pattern': '/images/wave-haikei.svg',
+        'city-image': "url('../images/houston.jpg')"
       }
     },
   },

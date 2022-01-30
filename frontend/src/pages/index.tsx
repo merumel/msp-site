@@ -16,14 +16,14 @@ const IndexPage = () => {
             <div
             className="grid grid-cols-1 divide-y-0 items-center"
             > 
-                <div className="flex relative shadow-lg shadow-indigo-400/50 mt-15 font-sans p-10 font-hairline self-start bg-stone-200">
+                <div className="flex relative shadow-lg shadow-indigo-400/50 mt-15 font-sans p-10 font-hairline self-start bg-stone-300">
                     
                     <div className="container justify-center w-1/2 h-1/2 p-20 ml-10">
                         <h1 className="text-3xl md:text-5xl text-black leading-tight">
-                            Your Trusted IT Consultant - Serving You and Your business.
+                            Take your IT to the Next Level.
                         </h1>
                         <p className="text-lg pt-4 text-slate-700">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Serving the greater Houston Area and beyond. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <div className="container pr-6 mt-10 w-9/12 self-start">
                         <div

@@ -5,12 +5,12 @@ const backgroundImage = {
 }
 const Pricing = () => {
     return(
-        <div className="flex-1 bg-stone-200" style={backgroundImage}>
+        <div className="flex-1 bg-stone-300" style={backgroundImage}>
             <div className="flex flex-col lg:flex-row">
                 <div className="flex w-1/3 content-center justify-end my-10">
                     <div className="rounded-lg shadow-sm bg-white flex flex-col border-4 border-white w-96">
                         <div className="p-5 lg:p-6 text-center flex-grow">
-                        <span className="inline-block text-sm uppercase tracking-wider font-semibold px-3 py-1 bg-indigo-200 bg-opacity-50 text-indigo-500 rounded-full mb-4">
+                        <span className="inline-block text-sm uppercase tracking-wider font-semibold px-3 py-1 bg-indigo-300 bg-opacity-50 text-indigo-500 rounded-full mb-4">
                             Residential
                         </span>
                         <p className="text-lg text-gray-600 font-semibold">
