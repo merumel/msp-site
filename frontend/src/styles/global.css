@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Encode+Sans+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400&family=Electrolize&family=Encode+Sans+SC&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

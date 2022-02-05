@@ -10,7 +10,7 @@ const Team = () => {
                     <h1 className="inline-block text-4xl px-28 pt-10">
                         Our Team
                     </h1>
-                    <p className="inline-block text-xl px-28 pt-10">Native houstonians.... 15 years of collective IT experience.... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil. </p>
+                    <p className="inline-block text-xl px-28 pt-10">Native houstonians.... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil. </p>
                 </div>
                 <div className="flex w-2/5">
                     <ul className="space-y-4 text-sm lg:text-base pl-28">
@@ -20,7 +20,7 @@ const Team = () => {
                             <span className="text-2xl">Chris Lai</span>
                         </li>
                         <li className="flex flex-row items-center">
-                            <StaticImage as="div" className="flex h-2/12 w-2/12 m-7 px-2" objectFit="contain" src="../images/chris.png" alt="Sunset in the mountains"/>
+                            <StaticImage as="div" className="flex h-2/12 w-2/12 m-7 px-2 shadow-lg" imgClassName="rounded-lg" src="../images/chris.png" alt="Sunset in the mountains"/>
 
                             <span className="text-2xl">Dexter Wande</span>
                         </li>

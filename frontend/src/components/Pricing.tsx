@@ -5,109 +5,116 @@ const backgroundImage = {
 }
 const Pricing = () => {
     return(
-        <div className="flex-1 bg-stone-300" style={backgroundImage}>
+        <div className="flex-1 bg-[#313537]" style={backgroundImage}>
             <div className="flex flex-col lg:flex-row">
-                <div className="flex w-1/3 content-center justify-end my-10">
-                    <div className="rounded-lg shadow-sm bg-white flex flex-col border-4 border-white w-96">
-                        <div className="p-5 lg:p-6 text-center flex-grow">
-                        <span className="inline-block text-sm uppercase tracking-wider font-semibold px-3 py-1 bg-indigo-300 bg-opacity-50 text-indigo-500 rounded-full mb-4">
-                            Residential
-                        </span>
-                        <p className="text-lg text-gray-600 font-semibold">
-                            Starting at
-                        </p>
-                        <div>
-                            <span className="text-3xl lg:text-5xl font-extrabold">$100</span>
-                            
+                <div className="flex lg:w-1/3 content-center justify-end my-10 px-10 lg:px-3">
+                    <div className="rounded-lg shadow-sm flex flex-col border-4 border-indigo-300 w-full lg:w-96">
+                        <div className="text-center flex grow text-stone-300">
+                            <div className="bg-zinc-900 flex flex-col py-10 grow justify-center items-center">
+                                
+                                    <span className="inline-flex space-x-1 items-center text-sm uppercase tracking-wider font-semibold px-3 py-1 bg-slate-500 bg-opacity-50 text-indigo-400 rounded-full mb-4">
+                                        <span>Residential</span>
+                                    </span>
+                                    <p className="text-lg font-semibold">
+                                        Starting at
+                                    </p>
+                                    <div>
+                                        <span className="text-3xl lg:text-5xl font-extrabold text-amber-300">$100</span>
+                                    </div>
+                                
+                                    <p className="">
+                                        For single users or families
+                                    </p>
+                                
+                            </div>                   
                         </div>
-                        <p className="text-gray-600">
-                            For single users or families
-                        </p>
-                        </div>
-                        <div className="p-5 lg:p-6 bg-gray-100 space-y-5 lg:space-y-6 text-gray-700 rounded-b-lg">
-                        <ul className="space-y-4 text-sm lg:text-base">
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span>Virus / Malware Removal</span>
-                            </li>
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span>Computer Tune-Ups</span>
-                            </li>
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span>Hardware Install / Repair</span>
-                            </li>
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span>Remote or On-Site Support</span>
-                            </li>
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>24/7</strong> Email Support</span>
-                            </li>
-                        </ul>
-                        <a className="px-4 py-3 text-white text-center uppercase font-semibold rounded bg-gray-700 hover:bg-gray-900 block w-full" href="javascript:void(0)">
-                            Contact Us
-                        </a>
+                        <div className="p-5 lg:p-6 bg-[#1E2022] space-y-5 lg:space-y-6 text-stone-300 rounded-b-lg">
+                            <ul className="space-y-4 text-sm lg:text-base">
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span>Virus / Malware Removal</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span>Computer Tune-Ups</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span>Hardware Install / Repair</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span>Remote or On-Site Support</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span><strong>24/7</strong> Email Support</span>
+                                </li>
+                            </ul>
+                            <a className="px-4 py-3 text-white text-center uppercase font-semibold rounded bg-gray-700 hover:bg-gray-900 block w-full" href="javascript:void(0)">
+                                Contact Us
+                            </a>
                         </div>
                     </div>
                 </div>
                 
                 <div className="flex w-1/3 content-center justify-center my-10">
-                    <div className="rounded-lg shadow-sm bg-white flex flex-col border-4 border-indigo-300 w-96">
-                        <div className="p-5 lg:p-6 text-center flex-grow">
-                        <span className="inline-flex space-x-1 items-center text-sm uppercase tracking-wider font-semibold px-3 py-1 bg-indigo-200 bg-opacity-50 text-indigo-500 rounded-full mb-4">
-                            <span>Business</span>
-                        </span>
-                        <p className="text-lg text-gray-600 font-semibold">
-                            Starting at
-                        </p>
-                        <div>
-                            <span className="text-3xl lg:text-5xl font-extrabold">$99</span>
-                            <span className="text-lg text-gray-600 font-semibold">/mon</span>
+                    <div className="rounded-lg shadow-sm flex flex-col border-4 border-indigo-300 w-96">
+                        <div className="text-center flex grow text-stone-300">
+                            <div className="flex flex-col grow justify-center items-center py-6 bg-zinc-900">
+                                <span className="inline-flex space-x-1 items-center text-sm uppercase tracking-wider font-semibold px-3 py-1 bg-slate-500 bg-opacity-50 text-indigo-400 rounded-full mb-4">
+                                    <span>Business</span>
+                                </span>
+                                <p className="text-lg font-semibold">
+                                    Starting at
+                                </p>
+                                <div>
+                                    <span className="text-3xl lg:text-5xl font-extrabold text-amber-300">$99</span>
+                                    <span className="text-lg font-semibold">/mon</span>
+                                </div>
+                                <p className="text-sm">
+                                    One-time solutions available
+                                </p>
+                                <p className="">
+                                    For small / medium businsses
+                                </p>
+                            </div>
+                            
                         </div>
-                        <p className="text-gray-600 text-sm">
-                            One-time solutions available
-                        </p>
-                        <p className="text-gray-600">
-                            For small / medium businsses
-                        </p>
-                        </div>
-                        <div className="p-5 lg:p-6 bg-gray-100 space-y-5 lg:space-y-6 text-gray-700 rounded-b-lg">
-                        <ul className="space-y-4 text-sm lg:text-base">
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span>Remote Monitoring and Management</span>
-                            </li>
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span>Cloud Data Management</span>
-                            </li>
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span>Helpdesk Support</span>
-                            </li>
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span>License and Vendor Management</span>
-                            </li>
-                            <li className="flex items-center space-x-2">
-                            <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
-                            <span><strong>24/7</strong> Monitoring</span>
-                            </li>
-                        </ul>
-                        <a className="px-4 py-3 text-white text-center uppercase font-semibold rounded bg-indigo-700 hover:bg-indigo-900 block w-full" href="javascript:void(0)">
-                            Request a Quote
-                        </a>
+                        <div className="p-5 lg:p-6 bg-[#1E2022] space-y-5 lg:space-y-6 text-gray-700 rounded-b-lg">
+                            <ul className="space-y-4 text-sm lg:text-base">
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span className="text-stone-300">Remote Monitoring and Management</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span className="text-stone-300">Cloud Data Management</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span className="text-stone-300">Helpdesk Support</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span className="text-stone-300">License and Vendor Management</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                <svg className="text-green-500 w-5 h-5 inline-block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 13l4 4L19 7"></path></svg>
+                                <span className="text-stone-300"><strong>24/7</strong> Monitoring</span>
+                                </li>
+                            </ul>
+                            <a className="px-4 py-3 text-white text-center uppercase font-semibold rounded bg-indigo-700 hover:bg-indigo-900 block w-full" href="javascript:void(0)">
+                                Request a Quote
+                            </a>
                         </div>
                     </div>
                 </div>
                 
-                <div className="flex flex-col my-10 w-1/3">
-                    <div className="rounded-lg shadow-lg bg-stone-200 shadow-indigo-700/50 flex flex-col flex-fit mr-72 p-4">
-                        <h2 className="text-3xl text-primary-dark font-bold">Pricing</h2>
-                        <h1 className="text-base text-md p-5">We cater our solutions to your needs. Consultation is always available for both home and busisness customers and starts at $xx.</h1>
+                <div className="flex flex-col my-10 w-1/3 pr">
+                    <div className="rounded-lg shadow-lg bg-[#262A2B] shadow-indigo-700/50 flex flex-col flex-fit p-4">
+                        <h2 className="text-3xl text-primary-dark font-bold text-stone-300">Pricing</h2>
+                        <h1 className="text-base text-md p-5 text-stone-300">We cater our solutions to your needs. Consultation is always available for both home and busisness customers and starts at $xx.</h1>
                     </div>
                     
                 </div>

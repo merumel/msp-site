@@ -17,7 +17,7 @@ const IndexPage = () => {
             <div
             className="grid grid-cols-1 divide-y-0 items-center"
             > 
-                <div className="flex relative shadow-lg shadow-indigo-400/50 mt-15 font-sans p-10 font-hairline self-start bg-stone-300">
+                <div className="flex relative shadow-lg shadow-indigo-400/50 mt-15 font-sans p-10 font-hairline self-start bg-slate-300">
                     
                     <div className="container justify-center w-1/2 h-1/2 p-20 ml-10">
                         <h1 className="text-3xl md:text-5xl text-black leading-tight">
@@ -72,17 +72,15 @@ const IndexPage = () => {
                 <div className="shadow-lg shadow-indigo-700/50">
                     <Services />
                 </div>
+                <div>
+                    <Team />
+                </div>
                 <div className="shadow-lg shadow-indigo-700/50">
                     <Pricing />
                 </div>
                 <div className="shadow-lg shadow-indigo-700/50">
                     <Contact />
                 </div>
-                <div>
-                    <Team />
-                </div>
-                
-
             </div> 
         </Layout>
 

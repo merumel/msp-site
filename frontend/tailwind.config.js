@@ -10,11 +10,12 @@ module.exports = {
         'custom-pale': '#ded5d1'
       },
       fontFamily:{
-        sans: ['Electrolize', 'sans'],
+        sans: ['"Chakra Petch"', 'sans'],
       },
       backgroundImage: {
-        'hero-pattern': '/images/wave-haikei.svg',
-        'city-image': "url('../images/houston.jpg')"
+        'shiba-laptop': "url('../images/shiblaptop.png')",
+        'city-image': "url('../images/houston.jpg')",
+        'shiba-business': "url('../images/officeshib.jpg')"
       }
     },
   },

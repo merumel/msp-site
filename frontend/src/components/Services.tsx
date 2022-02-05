@@ -5,7 +5,7 @@ const Services = () => {
 
     return(
         <div className="flex flex-col bg-slate-800 text-[#e4e4e4]">
-            <h1 className="text-center text-2xl pt-20 text-indigo-700 font-bold">Our Services</h1>
+            <h1 className="text-center text-2xl pt-20 text-indigo-600 font-bold">Our Services</h1>
             <strong className="text-center font-bold text-4xl">What We Offer</strong>
             <p className="text-base pt-6 text-center text-body-color">
                 There are many variations of passages of Lorem Ipsum available
@@ -15,11 +15,11 @@ const Services = () => {
                 <div className="p-20 mt-15 font-sans grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-x-4 gap-y-14 auto-rows-auto font-hairline self-start">
                     
                     <div className="flex justify-center items-center">
-                        <div className="rounded shadow-lg bg-slate-400 max-w-lg md:max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
+                        <div className="rounded shadow-lg bg-slate-300 max-w-lg md:max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
                         <StaticImage as="div" className="flex h-1/3 w-1/4 m-7" objectFit="contain" src="../images/code.png" alt="Sunset in the mountains"/>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2 leading-6">IT Consulting</div>
-                                <p className="text-gray-700 text-base">
+                                <div className="font-bold text-xl mb-2 leading-6 text-purple-700">IT Consulting</div>
+                                <p className="text-stone-800 text-md">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>                   
@@ -28,55 +28,55 @@ const Services = () => {
                              
                        
                     <div className="flex justify-center items-center">
-                        <div className="rounded shadow-lg bg-slate-500 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
+                        <div className="rounded shadow-lg bg-slate-300 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
                         <StaticImage as="div" className="flex h-1/3 w-1/4 m-7" objectFit="contain" src="../images/laptop_1.png" alt="Sunset in the mountains"/>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2 leading-6">Hardware and Software Support</div>
-                                <p className="text-gray-700 text-base">
+                                <div className="font-bold text-xl mb-2 leading-6 text-purple-700">Hardware and Software Support</div>
+                                <p className="text-stone-800 text-lg">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>                   
                         </div> 
                     </div>
                     <div className="flex justify-center items-center">
-                        <div className="rounded shadow-lg bg-slate-500 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
+                        <div className="rounded shadow-lg bg-slate-300 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
                         <StaticImage as="div" className="flex h-1/3 w-1/4 m-7" objectFit="contain" src="../images/document.png" alt="Sunset in the mountains"/>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2 leading-6">Malware Solutions</div>
-                                <p className="text-gray-700 text-base">
+                                <div className="font-bold text-xl mb-2 leading-6 text-indigo-700">Malware Solutions</div>
+                                <p className="text-stone-800 text-base">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>                   
                         </div> 
                     </div>   
                     <div className="flex justify-center items-center">
-                        <div className="rounded shadow-lg bg-slate-500 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
+                        <div className="rounded shadow-lg bg-slate-300 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
                         <StaticImage as="div" className="flex h-1/3 w-1/4 m-7" objectFit="contain" src="../images/cloud.png" alt="Sunset in the mountains"/>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2 leading-6">Monitoring and Management</div>
-                                <p className="text-gray-700 text-base">
+                                <div className="font-bold text-xl mb-2 leading-6 text-indigo-700">Monitoring and Management</div>
+                                <p className="text-stone-800 text-base">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>                   
                         </div> 
                     </div>  
                     <div className="flex justify-center items-center">
-                        <div className="rounded shadow-lg bg-slate-500 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
+                        <div className="rounded shadow-lg bg-slate-300 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
                         <StaticImage as="div" className="flex h-1/3 w-1/4 m-7" objectFit="contain" src="../images/lock.png" alt="Sunset in the mountains"/>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2 leading-6">Reliability</div>
-                                <p className="text-gray-700 text-base">
+                                <div className="font-bold text-xl mb-2 leading-6 text-indigo-700">Reliability</div>
+                                <p className="text-stone-800 text-base">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>                   
                         </div> 
                     </div>           
                     <div className="flex justify-center items-center">
-                        <div className="rounded shadow-lg bg-slate-500 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
+                        <div className="rounded shadow-lg bg-slate-300 max-w-md h-96 shadow-indigo-700/50 hover:shadow-xl hover:shadow-amber-700/50">
                         <StaticImage as="div" className="flex h-1/3 w-1/4 m-7" objectFit="contain" src="../images/mail.png" alt="Sunset in the mountains"/>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2 leading-6">Email Hosting</div>
-                                <p className="text-gray-700 text-base">
+                                <div className="font-bold text-xl mb-2 leading-6 text-indigo-700">Email Hosting</div>
+                                <p className="text-stone-800 text-base">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>                   
