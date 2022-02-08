@@ -11,7 +11,8 @@ const ContactForm = () => {
   const [contactPhone, setContactPhone] = useState("");
   const [contactMessage, setContactMessage] = useState("");
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     setTimeout(() => {
       const name = contactName;
       const email = contactEmail;
@@ -19,12 +20,19 @@ const ContactForm = () => {
       const message = contactMessage;
       axios({
         method: "POST",
+        headers: { "content-type": "application/x-www-form-urlencoded" },
         url: `${formUrl}?name=${encodeURIComponent(
           name
         )}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(
           message
         )}&phone=${encodeURIComponent(phone)}`,
-      });
+      })
+        .then(function (response) {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
       setSubmitted(true);
     }, 100);
   };
@@ -40,12 +48,7 @@ const ContactForm = () => {
   }
 
   return (
-    <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      method="POST"
-      target="_blank"
-    >
+    <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
       <div className="flex flex-row bg-stone-300">
         <div className="flex w-1/3 flex-col bg-[url('../images/flat-mountains.svg')] bg-cover">
           <div className="flex-1 py-14">
@@ -103,7 +106,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="mx-20 my-8 flex w-1/2 flex-col py-14">
+        <div className="mx-20 my-8 flex w-1/2 flex-col py-14 ">
           <h1 className="pb-10 text-2xl">Send us a message</h1>
           <div className="mb-3 flex pt-0">
             <input
