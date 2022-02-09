@@ -27,10 +27,10 @@ const IndexPage = () => {
           fpsLimit: 60,
           particles: {
             color: {
-              value: "#4338CA",
+              value: ["#6D28D9", "#F59E0B", "#9333EA"],
               animation: {
                 enable: true,
-                speed: 10,
+                speed: 1,
               },
             },
             move: {
@@ -61,7 +61,7 @@ const IndexPage = () => {
                 },
               },
               random: false,
-              speed: 3,
+              speed: 3.5,
               straight: false,
               trail: {
                 fillColor: "#000",
@@ -96,17 +96,14 @@ const IndexPage = () => {
           emitters: {
             direction: "none",
             rate: {
-              quantity: 1,
-              delay: 0.25,
+              quantity: 2,
+              delay: 0.3,
             },
             size: {
               width: 0,
               height: 0,
             },
-            position: {
-              x: 50,
-              y: 50,
-            },
+            position: { x: 65, y: 40 },
           },
         }}
         init={particlesInit}
@@ -118,7 +115,7 @@ const IndexPage = () => {
             <h1 className="text-3xl leading-tight text-white md:text-5xl">
               Take your IT to the Next Level.
             </h1>
-            <p className="pt-4 text-lg text-slate-500">
+            <p className="pt-4 text-lg text-slate-400">
               Serving the greater Houston Area and beyond. Lorem ipsum dolor sit
               amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
