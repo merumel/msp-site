@@ -6,17 +6,17 @@ const backgroundImage = {
 const Pricing = () => {
   return (
     <div className="flex-1 bg-transparent">
-      <div className="flex flex-col lg:flex-row">
-        <div className="my-10 flex content-center justify-end px-10 lg:w-1/3 lg:px-3">
-          <div className="flex w-full flex-col rounded-lg border-4 border-indigo-300 shadow-sm lg:w-96">
-            <div className="flex grow text-center text-stone-300">
-              <div className="flex grow flex-col items-center justify-center bg-zinc-900 py-10">
-                <span className="mb-4 inline-flex items-center space-x-1 rounded-full bg-slate-500 bg-opacity-50 px-3 py-1 text-sm font-semibold uppercase tracking-wider text-indigo-400">
+      <div className="flex flex-col md:flex-row">
+        <div className="my-10 flex content-center justify-center px-10 md:w-1/3 md:justify-end md:px-3">
+          <div className="flex w-96 flex-col rounded-lg border-4 border-indigo-700 shadow-sm">
+            <div className="flex grow text-center text-slate-800">
+              <div className="flex grow flex-col items-center justify-center bg-gray-300 py-10">
+                <span className="mb-4 inline-flex items-center space-x-1 rounded-full bg-gray-700 bg-opacity-50 px-3 py-1 text-sm font-semibold uppercase tracking-wider text-amber-400">
                   <span>Residential</span>
                 </span>
                 <p className="text-lg font-semibold">Starting at</p>
                 <div>
-                  <span className="text-3xl font-extrabold text-amber-300 lg:text-5xl">
+                  <span className="text-3xl font-extrabold text-indigo-700 md:text-5xl">
                     $100
                   </span>
                 </div>
@@ -24,8 +24,8 @@ const Pricing = () => {
                 <p className="">For single users or families</p>
               </div>
             </div>
-            <div className="space-y-5 rounded-b-lg bg-[#1E2022] p-5 text-stone-300 lg:space-y-6 lg:p-6">
-              <ul className="space-y-4 text-sm lg:text-base">
+            <div className="space-y-5 rounded-b-lg bg-slate-600 p-5 text-stone-300 md:space-y-6 md:p-6">
+              <ul className="space-y-4 text-sm md:text-base">
                 <li className="flex items-center space-x-2">
                   <svg
                     className="inline-block h-5 w-5 text-green-500"
@@ -109,7 +109,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="my-10 flex w-1/3 content-center justify-center">
+        <div className="my-10 flex content-center justify-center px-10 md:w-1/3 md:px-3">
           <div className="flex w-96 flex-col rounded-lg border-4 border-indigo-300 shadow-sm">
             <div className="flex grow text-center text-stone-300">
               <div className="flex grow flex-col items-center justify-center bg-zinc-900 py-6">

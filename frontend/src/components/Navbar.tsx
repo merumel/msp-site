@@ -1,36 +1,61 @@
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 import PrinterImage from "../assets/printer.svg";
 
-import React from "react"
+import React from "react";
 
-const Navbar = ({ siteTitle = ``}) => (
-    <nav className="flex items-center justify-between flex-wrap bg-gradient-to-tl from-indigo-800 to-indigo-900 p-6">
-    <div className="flex items-center flex-shrink-0 text-amber-500 mr-6">
-      <PrinterImage className="h-12 w-12"/>
-      <span className="font-semibold text-2xl tracking-tight pl-2">Max Level IT</span>
-    </div>
-    <div className="block lg:hidden">
-      <button className="flex items-center px-3 py-2 border rounded text-yellow-700 border-teal-400 hover:text-white hover:border-white">
-        <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-      </button>
-    </div>
-    <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-      <div className="text-sm lg:flex-grow">
-        <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-          Services
-        </a>
-        <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-          Pricing
-        </a>
-        <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
-          Contact Us
-        </a>
+const Navbar = ({ siteTitle = `` }) => (
+  <div className="relative z-10 w-full items-center bg-indigo-700 bg-opacity-80 bg-clip-padding shadow-sm backdrop-blur-md">
+    <nav className="relative mx-auto flex w-full max-w-screen-xl flex-wrap items-center justify-center p-6">
+      <div className="mr-6 flex flex-shrink-0 items-center text-amber-500">
+        <PrinterImage className="h-12 w-12" />
+        <span className="pl-2 text-2xl font-semibold tracking-tight">
+          Max Level IT
+        </span>
       </div>
-      <div>
-        <a href="#" className="inline-block text-sm px-4 py-2 leading-none rounded font-bold bg-amber-500 text-white shadow-lg hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Get Support Now</a>
+      <div className="block lg:hidden">
+        <button className="flex items-center rounded border border-teal-400 px-3 py-2 text-yellow-700 hover:border-white hover:text-white">
+          <svg
+            className="h-3 w-3 fill-current"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
       </div>
-    </div>
-  </nav>
-)
+      <div className="block w-full flex-grow lg:flex lg:w-auto lg:items-center">
+        <div className="text-sm lg:flex-grow">
+          <a
+            href="#responsive-header"
+            className="mt-4 mr-4 block text-white hover:text-white lg:mt-0 lg:inline-block"
+          >
+            Services
+          </a>
+          <a
+            href="#responsive-header"
+            className="mt-4 mr-4 block text-white hover:text-white lg:mt-0 lg:inline-block"
+          >
+            Pricing
+          </a>
+          <a
+            href="#responsive-header"
+            className="mt-4 block text-white hover:text-white lg:mt-0 lg:inline-block"
+          >
+            Contact Us
+          </a>
+        </div>
+        <div>
+          <a
+            href="#"
+            className="mt-4 inline-block rounded bg-amber-500 px-4 py-2 text-sm font-bold leading-none text-white shadow-lg hover:border-transparent hover:bg-white hover:text-teal-500 lg:mt-0"
+          >
+            Get Support Now
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+);
 
-export default Navbar
+export default Navbar;

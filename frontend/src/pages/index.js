@@ -103,7 +103,7 @@ const IndexPage = () => {
               width: 0,
               height: 0,
             },
-            position: { x: 65, y: 40 },
+            position: { x: 65, y: 30 },
           },
         }}
         init={particlesInit}
@@ -111,18 +111,18 @@ const IndexPage = () => {
 
       <div className="grid grid-cols-1 items-center divide-y-0">
         <div className="mt-15 font-hairline relative flex self-start bg-transparent p-10 font-sans shadow-lg shadow-indigo-400/50">
-          <div className="container ml-10 h-1/2 w-1/2 justify-center p-20">
-            <h1 className="text-3xl leading-tight text-white md:text-5xl">
+          <div className="container h-1/2 w-full justify-center p-3 md:ml-10 md:w-1/2 md:p-20">
+            <h1 className="pb-5 text-3xl leading-tight text-white md:text-5xl">
               Take your IT to the Next Level.
             </h1>
-            <p className="pt-4 text-lg text-slate-400">
-              Serving the greater Houston Area and beyond. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat.
-            </p>
-            <div className="container mt-10 w-9/12 self-start pr-6">
+            <span className="pt-4 text-xl text-slate-400">
+              Streamline{" "}
+              <strong className="text-amber-500">IT Operations. </strong>
+              Reliable <strong className="text-amber-500">Knowledge. </strong>
+              Ligma <strong className="text-amber-500">Perfomance.</strong>
+            </span>
+
+            <div className="container mt-10 w-full self-start md:w-9/12 md:pr-6">
               <div
                 className="flex flex-col items-start rounded bg-white p-4 text-sm sm:flex-row sm:items-center"
                 style={{
@@ -182,10 +182,6 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="mx-auto mt-5 flex w-4/12 justify-center">
-            <CityscapeImage className="invisible mx-auto" />
           </div>
         </div>
         <div className="shadow-lg shadow-indigo-700/50">
