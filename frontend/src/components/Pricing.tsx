@@ -20,11 +20,9 @@ const Pricing = () => {
                     $25
                   </span>
                 </div>
-
-                <p className="">For single users or families</p>
               </div>
             </div>
-            <div className="space-y-5 rounded-b-lg bg-slate-600 p-5 text-stone-300 md:space-y-6 md:p-6">
+            <div className="space-y-5 rounded-b-lg bg-gray-600 p-5 text-stone-300 md:space-y-6 md:p-6">
               <ul className="space-y-4 text-sm md:text-base">
                 <li className="flex items-center space-x-2">
                   <svg
@@ -66,7 +64,7 @@ const Pricing = () => {
                   >
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>Hardware Install / Repair</span>
+                  <span>Software Installation</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <svg
@@ -80,7 +78,7 @@ const Pricing = () => {
                   >
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>Remote or On-Site Support</span>
+                  <span>General Troubleshooting</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <svg
@@ -99,12 +97,7 @@ const Pricing = () => {
                   </span>
                 </li>
               </ul>
-              <a
-                className="block w-full rounded bg-gray-700 px-4 py-3 text-center font-semibold uppercase text-white hover:bg-gray-900"
-                href="javascript:void(0)"
-              >
-                Contact Us
-              </a>
+              
             </div>
           </div>
         </div>
@@ -119,12 +112,9 @@ const Pricing = () => {
                 <p className="text-lg font-semibold">Starting at</p>
                 <div>
                   <span className="text-3xl font-extrabold text-amber-300 lg:text-5xl">
-                    $99
+                    $100
                   </span>
-                  <span className="text-lg font-semibold">/mon</span>
                 </div>
-                <p className="text-sm">One-time solutions available</p>
-                <p className="">For small / medium businsses</p>
               </div>
             </div>
             <div className="space-y-5 rounded-b-lg bg-[#1E2022] p-5 text-gray-700 lg:space-y-6 lg:p-6">
@@ -142,7 +132,7 @@ const Pricing = () => {
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-stone-300">
-                    Remote Monitoring and Management
+                    Monitoring and Management
                   </span>
                 </li>
                 <li className="flex items-center space-x-2">
@@ -157,7 +147,7 @@ const Pricing = () => {
                   >
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span className="text-stone-300">Cloud Data Management</span>
+                  <span className="text-stone-300">Hardware / Software Installation</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <svg
@@ -202,16 +192,11 @@ const Pricing = () => {
                     <path d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-stone-300">
-                    <strong>24/7</strong> Monitoring
+                    Data Backup and Recovery
                   </span>
                 </li>
               </ul>
-              <a
-                className="block w-full rounded bg-indigo-700 px-4 py-3 text-center font-semibold uppercase text-white hover:bg-indigo-900"
-                href="javascript:void(0)"
-              >
-                Request a Quote
-              </a>
+              
             </div>
           </div>
         </div>
@@ -223,7 +208,7 @@ const Pricing = () => {
             </h2>
             <h1 className="text-md p-5 text-base text-stone-300">
               We cater our solutions to your needs. Consultation is always
-              available for both home and busisness customers and starts at $xx.
+              available for both home and busisness customers and starts at $25.
             </h1>
           </div>
         </div>

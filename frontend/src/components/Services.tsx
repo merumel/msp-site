@@ -10,10 +10,6 @@ const Services = () => {
       <strong className="text-center text-4xl font-bold text-black">
         What We Offer
       </strong>
-      <p className="text-body-color pt-6 text-center text-base text-gray-700">
-        There are many variations of passages of Lorem Ipsum available but the
-        majority have suffered alteration in some form.
-      </p>
       <div className="">
         <div className="mt-15 font-hairline grid grid-cols-1 gap-x-4 gap-y-14 self-start p-5 font-sans md:grid-cols-3 md:p-20">
           <div className="flex items-center justify-center">
@@ -29,10 +25,10 @@ const Services = () => {
                 <div className="mb-2 text-xl font-bold leading-6 text-purple-700">
                   IT Consulting
                 </div>
-                <p className="text-md text-stone-800">
-                  Provide custom recommendations to improve workflow, network
-                  optimization, and disaster recovery/be certain your technology
-                  needs continue to match your goals
+                <p className="text-lg text-stone-800">
+                  Provide custom recommendations to improve your workflow. 
+                  We ensure your technology needs
+                  match your goals.
                 </p>
               </div>
             </div>
@@ -52,9 +48,8 @@ const Services = () => {
                   Hardware and Software Support
                 </div>
                 <p className="text-lg text-stone-800">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                  exercitationem praesentium nihil.
+                No matter the problem, we keep your systems performing at <strong>MAX LEVEL</strong>.
+
                 </p>
               </div>
             </div>
@@ -72,10 +67,8 @@ const Services = () => {
                 <div className="mb-2 text-xl font-bold leading-6 text-indigo-700">
                   Malware Solutions
                 </div>
-                <p className="text-base text-stone-800">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                  exercitationem praesentium nihil.
+                <p className="text-lg text-stone-800">
+                  We find, eliminate, and prevent viruses and malware.
                 </p>
               </div>
             </div>
@@ -93,10 +86,8 @@ const Services = () => {
                 <div className="mb-2 text-xl font-bold leading-6 text-indigo-700">
                   Monitoring and Management
                 </div>
-                <p className="text-base text-stone-800">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                  exercitationem praesentium nihil.
+                <p className="text-lg text-stone-800">
+                  Keep your technology safe in an evolving threat landscape. Our analysts detect system vulnerabilities and deflect issues before they become problems.
                 </p>
               </div>
             </div>
@@ -114,10 +105,8 @@ const Services = () => {
                 <div className="mb-2 text-xl font-bold leading-6 text-indigo-700">
                   Reliability
                 </div>
-                <p className="text-base text-stone-800">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                  exercitationem praesentium nihil.
+                <p className="text-lg text-stone-800">
+                IT issues are less stressful when you can rely on a familiar support specialist who knows you and your business.
                 </p>
               </div>
             </div>
