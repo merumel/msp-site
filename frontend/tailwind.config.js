@@ -14,6 +14,7 @@ module.exports = {
         "shiba-laptop": "url('../images/shiblaptop.png')",
         "city-image": "url('../images/houston.jpg')",
         "shiba-business": "url('../images/officeshib.jpg')",
+        sprinkle: "url('../images/Sprinkle.svg')",
       },
       boxShadow: {
         "3xl": "3px 3px 0px 3px rgb(100, 100, 100)",

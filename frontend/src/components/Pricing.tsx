@@ -6,18 +6,18 @@ const backgroundImage = {
 const Pricing = () => {
   return (
     <div className="flex-1 bg-transparent">
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col-reverse md:flex-row">
         <div className="my-10 flex content-center justify-center px-10 md:w-1/3 md:justify-end md:px-3">
           <div className="flex w-96 flex-col rounded-lg border-4 border-indigo-700 shadow-sm">
             <div className="flex grow text-center text-slate-800">
               <div className="flex grow flex-col items-center justify-center bg-gray-300 py-10">
                 <span className="mb-4 inline-flex items-center space-x-1 rounded-full bg-gray-700 bg-opacity-50 px-3 py-1 text-sm font-semibold uppercase tracking-wider text-amber-400">
-                  <span>Residential</span>
+                  <span>Remote</span>
                 </span>
                 <p className="text-lg font-semibold">Starting at</p>
                 <div>
                   <span className="text-3xl font-extrabold text-indigo-700 md:text-5xl">
-                    $100
+                    $25
                   </span>
                 </div>
 
@@ -114,7 +114,7 @@ const Pricing = () => {
             <div className="flex grow text-center text-stone-300">
               <div className="flex grow flex-col items-center justify-center bg-zinc-900 py-6">
                 <span className="mb-4 inline-flex items-center space-x-1 rounded-full bg-slate-500 bg-opacity-50 px-3 py-1 text-sm font-semibold uppercase tracking-wider text-indigo-400">
-                  <span>Business</span>
+                  <span>On-site</span>
                 </span>
                 <p className="text-lg font-semibold">Starting at</p>
                 <div>
@@ -216,7 +216,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="pr my-10 flex w-1/3 flex-col">
+        <div className="pr my-10 flex flex-col md:w-1/3">
           <div className="flex-fit flex flex-col rounded-lg bg-[#262A2B] p-4 shadow-lg shadow-indigo-700/50">
             <h2 className="text-primary-dark text-3xl font-bold text-stone-300">
               Pricing
