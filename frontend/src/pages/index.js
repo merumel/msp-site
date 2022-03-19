@@ -28,7 +28,7 @@ const IndexPage = () => {
           fpsLimit: 60,
           particles: {
             color: {
-              value: ["#6D28D9", "#F59E0B", "#9333EA"],
+              value: ["#6D28D9", "#F59E0B", "#9333EA", "#0e0150"],
               animation: {
                 enable: false,
                 speed: 1,
@@ -65,7 +65,7 @@ const IndexPage = () => {
               speed: 3.5,
               straight: false,
               trail: {
-                fillColor: "#000",
+                fillColor: "#000000",
                 length: 20,
                 enable: true,
               },
@@ -88,7 +88,7 @@ const IndexPage = () => {
             },
           },
           background: {
-            color: "#000",
+            color: "#000000",
           },
           fullScreen: {
             zIndex: -1,
@@ -123,9 +123,9 @@ const IndexPage = () => {
               Dependable <strong className="text-amber-500">Service.</strong>
             </span>
 
-            <div className="container mt-10 w-full self-start md:w-9/12 md:pr-6">
+            <div className="container mt-10 w-full lg:w-9/12 lg:pr-6">
               <div
-                className="flex flex-col items-start rounded bg-white p-4 text-sm sm:flex-row sm:items-center"
+                className="text-md flex flex-col items-start rounded bg-white p-4 lg:flex-row lg:items-center"
                 style={{
                   boxShadow:
                     "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)",
@@ -174,7 +174,7 @@ const IndexPage = () => {
                   </div>
                 </div>
                 <p className="pr-9 text-lg text-slate-400">-OR-</p>
-                <div className="mt-6 flex-initial sm:mt-0">
+                <div className="inset-x-0 bottom-0 mt-6 block sm:mt-0 lg:flex-initial lg:justify-end">
                   <Link to="#contact">
                     <button className="hover:-translate-1 rounded bg-indigo-700 py-2 px-4 text-base font-bold uppercase text-white shadow-md hover:bg-indigo-600">
                       Contact

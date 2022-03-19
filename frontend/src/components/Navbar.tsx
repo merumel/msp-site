@@ -1,16 +1,18 @@
 import { Link } from "gatsby";
 import PrinterImage from "../assets/printer.svg";
+import LogoImage from "../assets/MaxLevelLogo.svg";
 import { Transition } from "@headlessui/react";
 import React, { useState } from "react";
 
 const Navbar = ({ siteTitle = `` }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="relative z-10 w-full items-center bg-indigo-700 bg-opacity-80 bg-clip-padding shadow-sm backdrop-blur-md">
+    <div className="relative z-10 w-full items-center bg-[#0e0150] bg-opacity-80 bg-clip-padding shadow-sm backdrop-blur-md">
       <nav className="relative mx-auto flex w-full max-w-screen-xl flex-wrap items-center justify-center p-6">
         <div className="mr-6 flex flex-shrink-0 items-center text-amber-500">
-          <PrinterImage className="h-12 w-12" />
-          <span className="pl-2 text-2xl font-semibold tracking-tight">
+          <LogoImage className="h-14 w-14" />
+
+          <span className="pl-3 text-2xl font-semibold tracking-tight">
             Max Level IT
           </span>
         </div>

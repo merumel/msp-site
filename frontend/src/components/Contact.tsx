@@ -71,7 +71,7 @@ const ContactForm = () => {
               required
             />
           </div>
-          <div className="mb-3 flex flex-col pt-0 md:flex-row md:space-x-3">
+          <div className="mb-3 flex flex-col gap-y-3 md:flex-row md:gap-x-3">
             <input
               type="email"
               placeholder="Email"
@@ -87,12 +87,12 @@ const ContactForm = () => {
               name="phone"
               value={contactPhone}
               onChange={(e) => setContactPhone(e.target.value)}
-              className="relative w-full rounded border-0 bg-slate-700 px-3  py-3 text-sm text-emerald-300 placeholder-emerald-200 shadow outline-none focus:outline-none focus:ring"
+              className="relative w-full rounded border-0 bg-slate-700 px-3 py-3 text-sm text-emerald-300 placeholder-emerald-200 shadow outline-none focus:outline-none focus:ring"
             />
           </div>
           <div className="mb-3 pt-0">
             <textarea
-              placeholder="Your message (What services where you looking for? Questions? Concerns?"
+              placeholder="Your message (What services were you looking for? Questions? Concerns?)"
               name="message"
               value={contactMessage}
               onChange={(e) => setContactMessage(e.target.value)}
