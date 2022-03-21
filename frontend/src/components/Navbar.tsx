@@ -18,7 +18,7 @@ const Navbar = ({ siteTitle = `` }) => {
         </div>
         <div className="block lg:hidden">
           <button
-            className="flex items-center rounded border border-teal-400 px-3 py-2 text-yellow-700 hover:border-white hover:text-white
+            className="flex items-center rounded border border-amber-500 px-3 py-2 text-yellow-700 hover:border-white hover:text-white
           "
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -56,7 +56,7 @@ const Navbar = ({ siteTitle = `` }) => {
           <div>
             <a
               href="#"
-              className="mt-4 inline-block rounded bg-amber-500 px-4 py-2 text-sm font-bold leading-none text-white shadow-lg hover:border-transparent hover:bg-white hover:text-teal-500 lg:mt-0"
+              className="mt-4 inline-block rounded bg-amber-500 px-4 py-2 text-sm font-bold leading-none text-white shadow-lg hover:border-transparent hover:bg-white hover:text-indigo-500 lg:mt-0"
             >
               Get Support Now
             </a>

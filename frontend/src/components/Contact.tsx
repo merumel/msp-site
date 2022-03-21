@@ -103,7 +103,7 @@ const ContactForm = () => {
           <div className="mb-3 pt-0">
             <button
               className="mr-1 mb-1 rounded 
-                    bg-blue-500 px-6 py-3 text-sm font-bold uppercase text-white 
+                    bg-indigo-700 px-6 py-3 text-sm font-bold uppercase text-white 
                     shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none active:bg-blue-600"
               type="submit"
             >

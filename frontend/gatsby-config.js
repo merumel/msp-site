@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://www.maxlevel.tech`,
     url: "https://www.maxlevel.tech",
     title: "Max Level IT",
-    titleTemplate: "%s · IT Consulting",
+    titleTemplate: "",
     description: "Tech support serving the greater Houston area",
     image: "/src/assets/MLLogo.png",
     twitterUsername: "@MaxLevelIT",
