@@ -8,13 +8,14 @@ module.exports = {
     title: "Max Level IT",
     titleTemplate: "%s · IT Consulting",
     description: "Tech support serving the greater Houston area",
-    image: "/logo.png",
+    image: "/src/assets/MLLogo.png",
     twitterUsername: "@MaxLevelIT",
   },
   plugins: [
     "gatsby-plugin-postcss",
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-typescript`,
