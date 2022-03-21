@@ -55,7 +55,7 @@ const Navbar = ({ siteTitle = `` }) => {
           </div>
           <div>
             <a
-              href={`SplashtopSOS.exe`}
+              href={`max-level-splashtop.exe`}
               className="mt-4 inline-block rounded bg-amber-500 px-4 py-2 text-sm font-bold leading-none text-white shadow-lg hover:border-transparent hover:bg-white hover:text-indigo-500 lg:mt-0"
             >
               Get Support Now
