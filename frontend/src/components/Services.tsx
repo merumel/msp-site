@@ -124,7 +124,7 @@ const Services = () => {
                 <div className="mb-2 text-xl font-bold leading-6 text-indigo-700">
                   Microsoft 365 and Cloud Services
                 </div>
-                <p className="text-base text-stone-800">
+                <p className="text-lg text-stone-800">
                   As a Microsoft Partner, we have extensive experience
                   performing successful Microsoft 365 implementations.
                 </p>
