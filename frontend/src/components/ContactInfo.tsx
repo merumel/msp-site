@@ -32,7 +32,7 @@ const ContactInfo = () => {
           </svg>
           <p>
             <strong>Phone: </strong>
-            281-241-7071
+            (281) 241-7071
           </p>
         </div>
         <div className="flex flex-row items-center space-x-3 pb-1 text-lg text-slate-100">
