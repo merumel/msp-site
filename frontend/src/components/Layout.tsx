@@ -9,7 +9,7 @@ const Layout = ({ children, bodyClass }) => {
       <div>
         <div className={bodyClass}>{children}</div>
         <footer className="bg-white">
-          © {new Date().getFullYear()}, Moon Spiders LLC
+          © {new Date().getFullYear()}, Moon Spiders LLC.
           {` `}
         </footer>
       </div>
