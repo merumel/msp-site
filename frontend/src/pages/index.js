@@ -225,7 +225,7 @@ const IndexPage = () => {
               />
                <StaticImage
                 as="div"
-                className="m-7 flex h-1/3 w-1/2 md:w-1/4 max-h-40"
+                className="m-7 flex h-1/4 w-40 md:w-1/4 max-h-40 max-w-md"
                 objectFit="contain"
                 src="../images/partners/comptian.png"
                 alt="Sunset in the mountains"
