@@ -210,8 +210,34 @@ const IndexPage = () => {
             </div>
           </a>
         </div>
+        
         <div className="shadow-lg shadow-indigo-700/50" id="services">
           <Services />
+        </div>
+        
+        <div className="flex flex-col md:flex-row w-full items-center md:-mt-12 justify-center space-x-12 bg-gray-300 text-sm md:text-base">
+              <StaticImage
+                as="div"
+                className="m-7 flex h-1/3 md:w-1/4 max-h-40"
+                objectFit="contain"
+                src="../images/partners/comptiaa.png"
+                alt="Sunset in the mountains"
+              />
+               <StaticImage
+                as="div"
+                className="m-7 flex h-1/3 w-1/2 md:w-1/4 max-h-40"
+                objectFit="contain"
+                src="../images/partners/comptian.png"
+                alt="Sunset in the mountains"
+              />
+               <StaticImage
+                as="div"
+                className="m-7 flex h-1/3 md:w-1/4 max-h-40"
+                objectFit="contain"
+                src="../images/partners/mspartner.png"
+                alt="Sunset in the mountains"
+              />
+              
         </div>
         <div></div>
         <div className="shadow-lg shadow-indigo-700/50" id="pricing">

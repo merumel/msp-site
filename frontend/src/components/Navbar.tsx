@@ -48,10 +48,11 @@ const Navbar = ({ siteTitle = `` }) => {
             </a>
             <a
               href="#contact"
-              className="mt-4 block text-white hover:text-white lg:mt-0 lg:inline-block"
+              className="mt-4 mr-4 block text-white hover:text-white lg:mt-0 lg:inline-block"
             >
               Contact Us
             </a>
+            <Link to="/blog" className="mt-4 block text-white hover:text-white lg:mt-0 lg:inline-block"></Link>
           </div>
           <div>
             <a
@@ -95,6 +96,8 @@ const Navbar = ({ siteTitle = `` }) => {
               >
                 Contact Us
               </a>
+              <Link to="/blog"></Link>
+
             </div>
           </div>
         )}

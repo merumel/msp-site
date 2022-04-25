@@ -9,6 +9,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['"Chakra Petch"', "sans"],
+        serif: ['"IBM Plex Sans"']
       },
       backgroundImage: {
         "shiba-laptop": "url('../images/shiblaptop.png')",
