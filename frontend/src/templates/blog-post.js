@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
 
 
 export default function BlogPost({ data }) {
@@ -9,7 +8,6 @@ export default function BlogPost({ data }) {
 
   return (
       <Layout bodyClass={null}>
-          <SEO title={post.frontmatter.title}/>
         <div className="w-full bg-slate-200 font-serif">
             <h1>{post.frontmatter.title}</h1>
             <small>{post.frontmatter.date}</small>
